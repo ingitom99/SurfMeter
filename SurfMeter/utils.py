@@ -11,7 +11,7 @@ import plotly.graph_objects as go
 from pymatreader import read_mat
 from tqdm import tqdm
 
-from src.transformation import coord_transform
+from .transformation import coord_transform
 
 def get_results(path : str) -> dict:
 

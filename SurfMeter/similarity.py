@@ -6,11 +6,12 @@ normal projection of errors.
 """
 
 import numpy as np
-from src.icp import icp
-from src.normals import get_normals
-from src.errors import get_errors
 from scipy.spatial import KDTree
-from src.utils import path_to_cloud
+
+from .icp import icp
+from .normals import get_normals
+from .errors import get_errors
+from .utils import path_to_cloud
 
 def get_box_bound(P : np.ndarray, Q : np.ndarray,
                   box_bound : np.ndarray) -> np.ndarray:

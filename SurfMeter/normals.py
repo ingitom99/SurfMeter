@@ -7,7 +7,7 @@ Function(s) for calculating the normal vectors of a point cloud.
 import numpy as np
 from scipy.spatial import KDTree
 from tqdm import tqdm
-from src.voxelizer import voxelizer
+from .voxelizer import voxelizer
 
 def get_normals(P : np.ndarray, k : int = 10) -> np.ndarray:
 
