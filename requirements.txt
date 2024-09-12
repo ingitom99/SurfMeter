@@ -1,6 +1,6 @@
-numpy==1.23.1
-numpy-stl==2.17.1
-plotly==5.13.0
-pymatreader==0.0.30
-scipy==1.9.0
-tqdm==4.65.0
+numpy
+numpy-stl
+plotly
+pymatreader
+scipy
+tqdm
