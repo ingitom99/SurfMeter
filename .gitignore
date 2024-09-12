@@ -1,0 +1,13 @@
+# Ignore all files in the data folder
+/data/
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# Ignore Jupyter Notebook files
+*.ipynb
+# Ignore virtual environment folder
+venv/
+# Ignore environment variables
+.env/
